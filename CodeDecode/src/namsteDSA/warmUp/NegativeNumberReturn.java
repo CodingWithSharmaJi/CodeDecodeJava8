@@ -1,4 +1,4 @@
-package namsteDSA;
+package namsteDSA.warmUp;
 
 import java.util.Scanner;
 

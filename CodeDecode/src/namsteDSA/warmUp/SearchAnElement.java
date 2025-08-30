@@ -1,5 +1,5 @@
 //WAF that searches the element in an array and return the index, If the element is not present than just reurn -1
-package namsteDSA;
+package namsteDSA.warmUp;
 
 import java.util.Scanner;
 

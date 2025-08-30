@@ -1,8 +1,8 @@
-package namsteDSA;
+package namsteDSA.warmUp;
 
 import java.util.Scanner;
 
-public class LargestInAnArray {
+public class MinimumInAnArray {
     public static void main(String[] args) {
         Scanner scanner=new Scanner(System.in);
         System.out.println("Enter the size of an array");
@@ -12,17 +12,17 @@ public class LargestInAnArray {
             System.out.println("Enter Element "+(i+1));
             arr[i]=scanner.nextInt();
         }
-        int maximum=findLargest(arr);
-        System.out.println("Maximum in an array is="+maximum);
+        int minimum=findMinimum(arr);
+        System.out.println("Maximum in an array is="+minimum);
     }
 
-    private static int findLargest(int[] arr) {
-        int max=arr[0];
+    private static int findMinimum(int[] arr) {
+        int min=arr[0];
         for(int i=0;i<arr.length;i++){
-            if(arr[i]>max){
-                max=arr[i];
+            if(arr[i]<min){
+                min=arr[i];
             }
         }
-        return max;
+        return min;
     }
 }
