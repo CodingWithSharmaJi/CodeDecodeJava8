@@ -1,4 +1,4 @@
-package CodeDecode;
+package CodeDecode.Day1;
 
 import java.util.function.BiConsumer;
 

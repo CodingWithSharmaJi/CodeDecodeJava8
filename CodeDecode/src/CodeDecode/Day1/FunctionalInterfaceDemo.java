@@ -1,4 +1,4 @@
-package CodeDecode;
+package CodeDecode.Day1;
 @FunctionalInterface
 public interface FunctionalInterfaceDemo {
      void singleAbstractMethod();

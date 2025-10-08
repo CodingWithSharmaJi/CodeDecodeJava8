@@ -1,4 +1,4 @@
-package CodeDecode;
+package CodeDecode.Day1;
 
 public class Test {
     public static void testImplementation(){
